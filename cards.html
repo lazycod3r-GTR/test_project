@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Postcards</title>
+  <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+
+<h1>From a far....</h1>
+
+<div class="viewer">
+  <div class="zone left" onclick="prev()"></div>
+
+  <img id="card" src="cards/card1.jpg" alt="Postcard">
+
+  <div class="zone right" onclick="next()"></div>
+</div>
+
+<!-- Page number -->
+<div id="pageIndicator">1 / 5</div>
+
+<script src="cards.js"></script>
+</body>
+</html>
